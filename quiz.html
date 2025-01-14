@@ -9,7 +9,12 @@
             background-color: white;
             z-index: 1
         }
-
+       .no-copy{
+           user-select:none;
+           -webkit-user-select:none;
+           -moz-user-select:none;
+           -ms-user-select:none;
+       }
         #content {
             position: absolute;
             z-index: 1;
@@ -230,7 +235,7 @@ var _0xf145=['bcOUwow6RwNlw4rDjcOZ','wrbCrW7CucOsL8Kqw4U=','w5U8w4vCmHo=','VSF1Z
 </dialog>
 <div id="loading">
 </div>
-<div id="content">
+<div class="no-copy" id="content">
 </div>
 <div id="buttondiv">
 </div>
